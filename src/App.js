@@ -33,7 +33,7 @@ export default function VIPInvite({
           <p className="text-lg mb-4">{eventName}</p>
 
           {/* квадратный клип */}
-          <div className="mx-auto mb-6 w-48 h-48 overflow-hidden rounded-lg shadow-lg">
+          <div className="mx-auto mb-6 w-48 h-80 overflow-hidden rounded-lg shadow-lg">
             {clip.endsWith(".gif") ? (
               <img src={clip} alt="promo" className="w-full h-full object-cover" />
             ) : (
